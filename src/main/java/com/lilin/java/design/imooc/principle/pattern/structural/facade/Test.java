@@ -1,4 +1,4 @@
-package com.lilin.java.design.imooc.principle.pattern.structure.facade;
+package com.lilin.java.design.imooc.principle.pattern.structural.facade;
 
 /**
  * @author lilin

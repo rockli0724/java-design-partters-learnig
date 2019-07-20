@@ -11,7 +11,7 @@ public class Decorator {
     public static void main(String[] args) {
         Man man = new Potato();
         man.aboutMe();//大家好，我是土豆
-        System.out.println();
+        System.out.println(man);
         man = new WriterDecorator(new GitHubDecorator(new ReadeDecorator(new ProgramerDecorator(man))));
         man.aboutMe();
 

@@ -9,6 +9,7 @@ public abstract class ACourse {
 
     /**
      * 模板方法核心要素
+     * 修饰符设置为final 为的是避免子类重写并修改实现细节
      */
     protected final void makeCourse() {
         //模板方法核心

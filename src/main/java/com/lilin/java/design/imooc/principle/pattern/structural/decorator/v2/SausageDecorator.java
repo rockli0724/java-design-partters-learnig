@@ -12,7 +12,7 @@ public class SausageDecorator extends AbstractDecorator {
 
     @Override
     protected String getDesc() {
-        return super.getDesc() + "加一根火腿";
+        return super.getDesc() + " 加一根火腿";
     }
 
     @Override

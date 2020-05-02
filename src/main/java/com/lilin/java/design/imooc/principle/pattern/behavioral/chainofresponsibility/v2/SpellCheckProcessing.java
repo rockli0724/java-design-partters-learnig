@@ -1,4 +1,4 @@
-package com.lilin.java.design.imooc.principle.pattern.behavioral.chainofresponsibility;
+package com.lilin.java.design.imooc.principle.pattern.behavioral.chainofresponsibility.v2;
 
 /**
  * @author lilin

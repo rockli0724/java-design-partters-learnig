@@ -1,5 +1,7 @@
 package com.lilin.basic.lang.enums;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author lilin
  * @Title: EnumApp
@@ -8,9 +10,10 @@ package com.lilin.basic.lang.enums;
 public class EnumApp {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Purpose purpose = Purpose.valueOf("REGISTER");
+        TimeUnit.MINUTES.sleep(6);
         System.out.println(purpose);
     }
 }
